@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --morado: #e2aef7;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  padding: 1em;
+  background-color: var(--morado);
+}
